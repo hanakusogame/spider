@@ -1,0 +1,231 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"MainGame": {
+			"type": "script",
+			"path": "script/MainGame.js",
+			"global": true
+		},
+		"number": {
+			"type": "image",
+			"width": 728,
+			"height": 128,
+			"path": "image/number.png"
+		},
+		"MainScene": {
+			"type": "script",
+			"path": "script/MainScene.js",
+			"global": true
+		},
+		"score": {
+			"type": "image",
+			"width": 192,
+			"height": 192,
+			"path": "image/score.png"
+		},
+		"start": {
+			"type": "image",
+			"width": 800,
+			"height": 500,
+			"path": "image/start.png"
+		},
+		"time": {
+			"type": "image",
+			"width": 76,
+			"height": 76,
+			"path": "image/time.png"
+		},
+		"config": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/config.png"
+		},
+		"volume": {
+			"type": "image",
+			"width": 128,
+			"height": 64,
+			"path": "image/volume.png"
+		},
+		"Button": {
+			"type": "script",
+			"path": "script/Button.js",
+			"global": true
+		},
+		"Config": {
+			"type": "script",
+			"path": "script/Config.js",
+			"global": true
+		},
+		"glyph": {
+			"type": "text",
+			"path": "text/glyph.json"
+		},
+		"number_red": {
+			"type": "image",
+			"width": 728,
+			"height": 128,
+			"path": "image/number_red.png"
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm",
+			"systemId": "music",
+			"duration": 67198
+		},
+		"se_start": {
+			"type": "audio",
+			"path": "audio/se_start",
+			"systemId": "sound",
+			"duration": 1701
+		},
+		"se_timeup": {
+			"type": "audio",
+			"path": "audio/se_timeup",
+			"systemId": "sound",
+			"duration": 1080
+		},
+		"title": {
+			"type": "image",
+			"width": 1280,
+			"height": 720,
+			"path": "image/title.png"
+		},
+		"se_clear": {
+			"type": "audio",
+			"path": "audio/se_clear",
+			"systemId": "sound",
+			"duration": 732
+		},
+		"se_miss": {
+			"type": "audio",
+			"path": "audio/se_miss",
+			"systemId": "sound",
+			"duration": 360
+		},
+		"se_move": {
+			"type": "audio",
+			"path": "audio/se_move",
+			"systemId": "sound",
+			"duration": 105
+		},
+		"card": {
+			"type": "image",
+			"path": "image/card.png",
+			"width": 330,
+			"height": 165
+		},
+		"mark": {
+			"type": "image",
+			"path": "image/mark.png",
+			"width": 144,
+			"height": 36
+		},
+		"mark2": {
+			"type": "image",
+			"path": "image/mark2.png",
+			"width": 360,
+			"height": 90
+		},
+		"number2": {
+			"type": "image",
+			"path": "image/number2.png",
+			"width": 468,
+			"height": 90
+		},
+		"Card": {
+			"type": "script",
+			"path": "script/Card.js",
+			"global": true
+		},
+		"CardArea": {
+			"type": "script",
+			"path": "script/CardArea.js",
+			"global": true
+		},
+		"mark3": {
+			"type": "image",
+			"path": "image/mark3.png",
+			"width": 330,
+			"height": 110
+		},
+		"Cascade": {
+			"type": "script",
+			"path": "script/Cascade.js",
+			"global": true
+		},
+		"cursor": {
+			"type": "image",
+			"path": "image/cursor.png",
+			"width": 223,
+			"height": 126
+		},
+		"cursor2": {
+			"type": "image",
+			"path": "image/cursor2.png",
+			"width": 185,
+			"height": 110
+		},
+		"undo": {
+			"type": "image",
+			"path": "image/undo.png",
+			"width": 200,
+			"height": 140
+		},
+		"a": {
+			"type": "image",
+			"path": "image/a.png",
+			"width": 110,
+			"height": 110
+		},
+		"YamaFuda": {
+			"type": "script",
+			"path": "script/YamaFuda.js",
+			"global": true
+		},
+		"KumiFuda": {
+			"type": "script",
+			"path": "script/KumiFuda.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"niconico": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 200
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	]
+}
